@@ -1,0 +1,254 @@
+* { 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    /* border: 1px solid black; */
+    transition: 2s;
+}
+
+.main {
+    width:99%;
+    height: 100px;
+    display: flex;
+}
+
+.logo img {
+    width: 180px;
+    height: 70px;
+    position: relative;
+    top: 20px;
+    
+
+}
+
+  .navbar {
+    float: left;
+    width: 90%;
+    height: 40px;
+    position: relative;
+    left: 10px;
+    top: 20px;
+  }
+
+  .navbar ul li{
+    display:block;
+  }
+
+
+  .navbar li {
+    display:block;
+    margin: 10px;
+    padding: 5px;
+    list-style: none;
+    min-width: 10px;
+  }
+
+  li a{
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: "Times New Roman", Times, serif;
+    font-weight: bolder;
+  }
+  .bigul{
+    display: flex;
+  }
+  .line{
+    float: left;
+    display: block;
+    min-width: 100px;
+    position: relative;
+    z-index: 10;
+  }
+
+  .line ul{
+    display: none;
+    background-color: white;
+    min-width: 50px;
+    position: fixed; 
+  }
+
+  .bigul .line:hover{
+    background-color: #5476811f;
+    display: block;
+    box-shadow: 8px 5px 15px rgba(17, 17, 66, 0.475);
+
+  }
+
+  .line ul{
+   margin-top: 12px;
+ 
+  }
+  .line ul li{
+    margin-bottom: 15px;
+  }
+
+  .line ul li:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.306);
+  }
+
+  .line ul li:nth-child(odd){
+    background-color: aliceblue;
+  }
+  .line ul li:nth-child(even):hover{
+    background-color: rgba(128, 128, 128, 0.779);
+    box-shadow: 8px 5px 15px rgba(17, 17, 66, 0.475);
+
+  }
+
+  .line ul li:nth-child(odd):hover{
+    background-color: rgb(165, 202, 234);
+    box-shadow: 10px 10px 20px rgba(17, 17, 66, 0.475);
+  }
+  
+  .line:hover ul {
+    display: block;
+  }
+  /* .line ul li:hover li{
+    background-color: gray;
+  } */
+button {
+    width: 250px;
+    height: 50px;
+    background-color: rgb(5, 28, 28);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    position: relative;
+    top: 20px;
+    left: 10px;
+    box-shadow: 8px 5px 15px rgba(17, 17, 66, 0.475);
+
+}
+
+button:hover {
+    background-color: rgba(19, 75, 75, 0.591);
+    color: black;
+    height: 50px;
+}
+
+.container2 {
+    width: 100%;
+    height: 450px;
+    background-image: linear-gradient(to right, #ec8867, #d35272)
+}
+
+.box {
+    width: 1300px;
+    height: 400px;
+    position: relative;
+    left: 200px;
+    top: 70px;
+    text-align: none;
+}
+
+.box h1 {
+    font-family: 'Rubik', sans-serif;
+    font-weight: lighter;
+    font-size: 90px;
+    color: rgb(34, 31, 31);
+    z-index: 5;
+    text-shadow: 8px 5px 15px rgba(2, 2, 12, 0.477);
+}
+
+.btns a {
+    width: 400px;
+    height: 80px;
+    position: relative;
+    left: 20px;
+    top: 100px;
+    background-color: rgb(44, 47, 49);
+    padding: 20px;
+    margin-left: 40px;
+    color: white;
+    word-spacing: 10px;
+    z-index: 6;
+    box-shadow: 8px 5px 15px rgba(1, 1, 8, 0.651);
+    border-radius: 2px;
+}
+
+#btn2 {
+    background-color: rgba(240, 255, 255, 0.043);
+    border: 2px solid black;
+    padding: 20px;   
+}
+
+.btns a:hover {
+    background-color: black;
+}
+
+#btn2:hover {
+    background-color: black;
+}
+
+.butns {
+    width: 80%;
+    height: 350px;
+}
+
+.butns button {
+    width: 200px;
+    height: 65px;
+    background-color: rgba(0, 0, 255, 0);
+    position: relative;
+    left: 400px;
+    top: 200px;
+    margin-left: 20px;
+    border-radius: 4px;
+    border: 2PX solid black;
+    box-shadow: 8px 5px 15px rgba(1, 1, 8, 0.651);
+}
+
+.butns button a {
+    color: rgba(37, 35, 35, 0.995);
+}
+
+#allbtn {
+    background-color: #149DCC;
+    padding: 10px; 
+}
+
+#allbtn a {
+    color: white;
+}
+
+.butns button:hover {
+    background-color: #149DCC;
+}
+.butns button a:hover{
+    
+    color: white;
+    background-color: #149DCC;
+}
+.gallary{
+    width: 98%;
+    height: 500px;
+    position: relative;
+    left: 20px;
+    margin: 0px;
+    
+}
+ .photos img{
+    width: 350px;
+    height: 500px;
+    margin-left: 15px;
+    box-shadow: 10px 10px 20px rgba(1, 1, 8, 0.76);
+
+}
+
+.photos2 img{
+    width: 350px;
+    height: 250px;
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 10px 10px 20px rgba(1, 1, 8, 0.76);
+}
+ .photos img:hover{
+    filter: blur(6px);  
+}
+
+
+.photos2 img:hover{
+    filter: blur(6px);  
+}
